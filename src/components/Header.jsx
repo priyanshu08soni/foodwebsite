@@ -24,11 +24,19 @@ const Header = () => {
         <NavLink to="/orders">
           <button>Orders</button>
         </NavLink>
-        <NavLink to="/Cart">
+        <NavLink to="/cart">
           <button>Cart</button>
         </NavLink>
         <NavLink to="/help">
           <button>Help</button>
+        </NavLink>
+      </div>
+      <div className="authentication">
+        <NavLink to="/login">
+          <button>Login</button>
+        </NavLink>
+        <NavLink to="/signup">
+          <button>Signup</button>
         </NavLink>
       </div>
     </section>
